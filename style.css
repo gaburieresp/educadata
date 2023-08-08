@@ -155,7 +155,44 @@ header {
   opacity: 4;
 }
 
+@media screen and (max-width: 744px) {
+  .title {
+    font-size: 24px;
+    color: #ff2dd2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
 
+  .header-content {
+    color: #fcfcfc;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  header {
+    background-image: url('img/hero-image.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 64px 32px;
+    text-align: center;
+  }
+  .cta-button {
+    display: inline-flex;
+    background-color: #ef00ab;
+    color: #fcfcfc;
+    padding: 8px 16px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+}
 
 
 .video-section {
